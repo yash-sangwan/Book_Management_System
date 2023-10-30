@@ -17,7 +17,7 @@ app.use("/books",router)//localhost:5000/books, //The request is made to the URL
 
 mongoose
   .connect(
-    "mongodb+srv://admin:WXMwpV5UWEShfKP3@cluster0.rsfykqc.mongodb.net/bookStore?retryWrites=true&w=majority"
+    "Connect your mongodb API key"
   )
   .then(() => {
     console.log("Database connected successfully");
